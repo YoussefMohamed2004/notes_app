@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_8/views/widgets/custom_app_bar.dart';
-import 'package:flutter_application_8/views/widgets/custom_note_item.dart';
+
+import 'package:flutter_application_8/views/widgets/notes_list_view.dart';
 
 class NotseNiewBody extends StatelessWidget {
   const NotseNiewBody({super.key});
@@ -15,7 +16,7 @@ class NotseNiewBody extends StatelessWidget {
             height: 4,
           ),
           CustomAppBar(),
-          NotsItem(),
+          Expanded(child: NotesListView()),
         ],
       ),
     );
