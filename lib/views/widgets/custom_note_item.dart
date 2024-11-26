@@ -30,7 +30,7 @@ class NotsItem extends StatelessWidget {
           children: [
             ListTile(
               title: const Text(
-                'Flutter Tips',
+                'Add Note',
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 26,
